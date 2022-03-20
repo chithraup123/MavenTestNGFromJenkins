@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Preparation') {
             steps {
-                git 'https://github.com/chithraup123/selen-maven-testng.git' 
+                git 'https://github.com/chithraup123/MavenTestNGFromJenkins.git' 
             }
         }
         stage('Build') {
