@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.569 s <<< FAILURE! - in TestSuite
+tests.LoginPageTest.ValidLoginTest  Time elapsed: 0.009 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.relevantcodes.extentreports.ExtentTest.log(com.relevantcodes.extentreports.LogStatus, String)" because "tests.LoginPageTest.extTest" is null
+	at tests.LoginPageTest.ValidLoginTest(LoginPageTest.java:30)
+

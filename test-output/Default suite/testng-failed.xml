@@ -5,11 +5,12 @@
     <classes>
       <class name="tests.LoginPageTest">
         <methods>
+          <include name="dataTearDown"/>
           <include name="teardown"/>
           <include name="initialize"/>
           <include name="setUp"/>
           <include name="dataSetup"/>
-          <include name="InvalidLoginTest"/>
+          <include name="afterMethod"/>
           <include name="ValidLoginTest"/>
         </methods>
       </class> <!-- tests.LoginPageTest -->

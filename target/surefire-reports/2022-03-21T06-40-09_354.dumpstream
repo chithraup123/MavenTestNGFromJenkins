@@ -1,0 +1,4 @@
+# Created at 2022-03-21T06:40:10.278
+Boot Manifest-JAR contains absolute paths in classpath 'H:\SLearn\TestMatersPractice\SwagLabsExample\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+
