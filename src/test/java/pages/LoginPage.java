@@ -34,7 +34,7 @@ public class LoginPage {
 		password.sendKeys(pwd);
 		loginButton.click();
 	}
-
+	
 	public String getErrorMsg() {
 		return errorMsg.getText();
 	}

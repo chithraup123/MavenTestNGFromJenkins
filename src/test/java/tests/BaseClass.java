@@ -53,7 +53,7 @@ public class BaseClass {
 	public void teardown() {
 		System.out.println("Inside after method of BaseClass");
 		extReport.endTest(extTest);
-		driver.quit();
+		//driver.quit();
 	}
 
 	@AfterTest

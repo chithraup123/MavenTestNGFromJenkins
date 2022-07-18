@@ -11,6 +11,7 @@
           <include name="setUp"/>
           <include name="dataSetup"/>
           <include name="afterMethod"/>
+          <include name="InvalidLoginTest"/>
           <include name="ValidLoginTest"/>
         </methods>
       </class> <!-- tests.LoginPageTest -->

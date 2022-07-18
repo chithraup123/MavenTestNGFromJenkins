@@ -41,7 +41,6 @@ public class LoginPageTest extends BaseClass {
 		loginPage.login(userName, pwd);
 		String expUrl = "https://www.saucedemo.com/inventory.html";
 		Assert.assertEquals(loginPage.getCurrentUrl(), expUrl, "Expected URL and Actual URL are NOT EQUAL");
-
 	}
 
 	@Test
